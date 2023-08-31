@@ -1,4 +1,133 @@
-h1 {
-    text-align: center;
-    color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
 }
+.card {
+    display: block;
+    width: 90%;
+    max-width: 570px;
+    background: linear-gradient(to top, #39b1e1, #210ca9);
+    color: black;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;   
+}
+
+form {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.text-input input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 15px 25px;
+    height: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.search-form button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 10px;
+    width: 40px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.heading {
+    border: 1px solid black;
+    margin: 20px 0;
+    border-radius: 10px;
+    
+    
+}
+
+.forecast {
+    border: 1px solid rgb(164, 31, 31);
+    border-radius: 20px;
+    background: #210ca9;
+    
+}
+
+.heading h1 {
+    text-align: left;
+    margin: 10px 30px;
+    font-size: 16px;   
+}
+
+.heading h2 {
+    text-align: left;
+    margin: 10px 30px;
+    font-size: 15px;
+}
+
+
+.temp-link {
+  margin-right: 200px;
+  font-size: 40px;
+}
+
+.unit {
+  font-size: 12px;
+  color: white;
+  position: relative;
+}
+
+.weather {
+    text-align: left;
+    margin: 20px 30px;
+    font-size: 12px;
+}
+
+.factors {
+    font-size: 15px;
+    text-align: right;
+    margin: 10px 60px;
+    font-weight: normal;
+    list-style: none;
+    
+      
+}
+
+.heading h3 {
+    text-align: left;
+    margin: 10px 30px;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.forecast h1 {
+    text-align: left;
+    margin: 10px 30px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.col {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
